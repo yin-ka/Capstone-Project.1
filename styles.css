@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background:#fff;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    font-family: 'lato', sans-serif;
+}
+
+.menu {
+    width: 20px;
+    margin-top: 10px;
+  }
+  
+  .button-menu {
+    width: 60px;
+    margin: 20px 0 0 20px;
+    position: absolute;
+    z-index: 100;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .menu-close {
+    width: 39%;
+    display: none;
+    margin-top: 12px;
+  }
+  
+  .close-menu-active {
+    display: block;
+  }
+  
+  .nav-mobile {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: lightgrey;
+    color: white;
+    list-style: none;
+    margin-top: 0;
+  }
+  
+  .nav-mobile-active {
+    display: block;
+    height: 100%;
+    padding-top: 60px;
+    width: 100%;
+  }
+  
+  .nav-mobile-list {
+    text-decoration: none;
+    color: #272a31;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  
+  .nav-mobile-list-parent {
+    padding: 15px;
+  }
+
+#desktop-menu {
+    display: none;
+  }
+
+@media (min-width: 768px) {
+    #desktop-menu {
+        display: block;
+      }
+    
+      .menu-nav {
+        display: none;
+      }
+    
+      ul {
+        display: flex;
+        margin: 30px;
+        justify-content: center;
+        list-style: none;
+      }
+    
+      .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #272a31;
+        justify-content: flex-end;
+        margin: 0%;
+        gap: 10px;
+        padding-top: 5px;
+        height: 5vh;
+        padding-right: 50px;
+      }
+    
+      .nav-desk {
+        color: white;
+        font-size: 17px;
+        margin-top: -1px;
+        padding-top: 5px;
+      }
+    
+      .twitter {
+        height: 25px;
+        padding-top: 6px;
+      }
+    
+      .facebook {
+        height: 25px;
+        padding-top: 6px;
+      }
+    
+      .desk-nav {
+        display: flex;
+        justify-content: space-around;
+      }
+    
+      .list-desk {
+        display: flex;
+        gap: 40px;
+        margin-top: 40px;
+      }
+    
+      .container-desk {
+        display: flex;
+        width: fit-content;
+      }
+    
+      a:hover {
+        color: #ec5242;
+      }
+    
+      .anchor {
+        text-decoration: none;
+        color: rgb(100, 100, 100);
+        font-size: 130%;
+      }
+
+      .div-image-desk {
+        display: flex;
+        align-items: center;
+        height: 100px;
+      }
+    
+      .image-desk {
+        width: 60%;
+        margin-left: 15%;
+        padding-top: 10px;
+      }
+    
+      .point {
+        color: #ec5242;
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 26px;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 10px 10px;
+        border: 2px solid #ec5242;
+      }
+}
