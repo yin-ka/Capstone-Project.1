@@ -374,4 +374,142 @@ footer {
     width: 650px;
     height: 300px;
   }
+
+  .button-1 {
+    display: none;
+  }
+
+  .address {
+    font-size: 30px;
+  }
+
+  .adress-2 {
+    font-size: 20px;
+  }
+
+  .desktop-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 10px 0 10px;
+    justify-content: center;
+  }
+
+  .program-description-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    width: 19%;
+    margin: 2px;
+  }
+
+  .speaker-topic {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .partner,
+  footer {
+    display: block;
+  }
+
+  .main {
+    height: 50vh;
+  }
+
+  .program-details {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .program-description-card:hover {
+    border: 3px solid white;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+
+  #desk-image-3,
+  #desk-image-4,
+  #desk-image-5,
+  #desk-image-6 {
+    display: block;
+    display: flex;
+  }
+
+  #speak {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker-card {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .speaker-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker-image {
+    width: 25%;
+    height: 15vh;
+  }
+
+  .profession {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .partner {
+    height: 30vh;
+    background-color: #575757;
+  }
+
+  .partner-1 {
+    color: var(--background);
+    text-align: center;
+    font-family: var(--lato);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+
+  .guide {
+    width: 10%;
+    margin: auto;
+    border-bottom: 2px solid var(--highlight);
+  }
+
+  .logo-2 {
+    width: 70%;
+    margin-top: 40px;
+  }
+
+  .logo-1 {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .dogo-logo {
+    width: 20%;
+  }
+
+  .paragraph {
+    font-family: var(--lato);
+    font-size: 12px;
+    color: #575757;
+    padding-top: 70px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
