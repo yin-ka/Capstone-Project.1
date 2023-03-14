@@ -1,357 +1,356 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    text-align: center;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#menu {
+  width: 40px;
+  margin: 20px 0 0 20px;
+  position: absolute;
+  display: block;
+  float: left;
+}
+
+.image-1 {
+  height: 100px;
+  width: 80%;
+  margin-top: -10px;
+}
+
+.introduction {
+  margin: 16px;
+}
+
+h1 {
+  color: orangered;
+  font-size: 35px;
+  margin-top: -10px;
+}
+
+.intro-text {
+  padding-top: 100px;
+  color: orangered;
+  font-size: 25px;
+}
+
+.paragraph-title {
+  background-color: white;
+  color: #272a32;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 32px;
+  margin: auto;
+}
+
+.address {
+  font-size: 12px;
+  color: #272a32;
+  padding: 0 60px;
+}
+
+.address-2 {
+  font-weight: 600;
+  color: #272a32;
+  text-decoration: underline;
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 15px;
+  padding: 0 90px;
+}
+
+.guide {
+  border-bottom: 1px solid orangered;
+  width: 10%;
+  margin: auto;
+}
+
+.logo {
+  border: 1px solid lightgrey;
+  height: 30%;
+  width: 90%;
+  padding: 0 80px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  padding-top: 30px;
+  border-top: 1px solid lightgray;
+}
+
+.outreach {
+  margin: 10px 30px;
+  width: 80%;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #494b50;
+  height: 25vh;
+}
+
+h5 {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: -1px;
+}
+
+.partner h5 {
+  margin-top: -1rem;
+}
+
+.logo-2 {
+  font-weight: 600;
+  font-size: x-large;
+  color: black;
+  width: 80%;
+}
+
+.logo-3 {
+  font-weight: 600;
+  font-size: x-large;
+  color: black;
+  margin-top: -3rem;
+  width: 70%;
+}
+
+.logo-1 {
+  font-weight: 600;
+  font-size: x-large;
+  color: black;
+  width: 80%;
+  margin-top: 8px;
+}
+
+.logo-1:hover {
+  color: #ec5242;
+}
+
+.logo-2:hover {
+  color: #ec5242;
+}
+
+.logo-3:hover {
+  color: #ec5242;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  width: 30%;
+  margin: 10px;
+}
+
+.lagtechfest-logo {
+  width: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.paragraph {
+  background-color: white;
+  color: #272a32;
+  font-size: 10px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+
+#desktop-menu {
+  display: none;
+}
+
+@media (min-width: 768px) {
   #menu {
-    width: 40px;
-    margin: 20px 0 0 20px;
-    position: absolute;
+    display: none;
+  }
+
+  #desktop-menu {
     display: block;
-    float: left;
-  }
-  
-  .image-1 {
-    height: 100px;
-    width: 80%;
-    margin-top: -10px;
-  }
-  
-  .introduction {
-    margin: 16px;
-  }
-  
-  h1 {
-    color: orangered;
-    font-size: 35px;
-    margin-top: -10px;
-  }
-  
-  .intro-text {
-    padding-top: 100px;
-    color: orangered;
-    font-size: 25px;
-  }
-  
-  .paragraph-title {
-    background-color: white;
-    color: #272a32;
-    font-size: 15px;
-    line-height: 18px;
-    padding: 32px;
-    margin: auto;
-  }
-  
-  .address {
-    font-size: 12px;
-    color: #272a32;
-    padding: 0 60px;
-  }
-  
-  .address-2 {
-    font-weight: 600;
-    color: #272a32;
-    text-decoration: underline;
-    margin-top: -10px;
-    padding-bottom: 30px;
-  }
-  
-  h4 {
-    font-size: 15px;
-    padding: 0 90px;
-  }
-  
-  .guide {
-    border-bottom: 1px solid orangered;
-    width: 10%;
-    margin: auto;
-  }
-  
-  .logo {
-    border: 1px solid lightgrey;
-    height: 30%;
-    width: 90%;
-    padding: 0 80px;
-    margin: 20px 0;
-  }
-  
-  h3 {
-    font-size: 20px;
-    padding-top: 30px;
-    border-top: 1px solid lightgray;
-  }
-  
-  .outreach {
-    margin: 10px 30px;
-    width: 80%;
-  }
-  
-  .partner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #494b50;
-    height: 25vh;
   }
 
-  .partner h5 {
-    margin-top: -1rem;
-  }
-  
-  h5 {
-    color: white;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-bottom: -1px;
-  }
-  
-  .logo-2 {
-    font-weight: 600;
-    font-size: x-large;
-    color: black;
-    width: 80%;
-  }
-  
-  .logo-3 {
-    font-weight: 600;
-    font-size: x-large;
-    color: black;
-    margin-top: -3rem;
-    width: 70%;
-    margin-top: -4rem;
-  }
-  
-  .logo-1 {
-    font-weight: 600;
-    font-size: x-large;
-    color: black;
-    width: 80%;
-    margin-top: 8px;
+  .menu-nav {
+    display: none;
   }
 
-  .logo-1:hover {
-    color: #EC5242;
-  }
-
-  .logo-2:hover {
-    color: #EC5242;
-  }
-
-  .logo-3:hover {
-    color: #EC5242;
-  }
-  
   ul {
     list-style: none;
+  }
+
+  li {
+    width: 10%;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(47, 47, 47);
+    justify-content: flex-end;
+    margin: 0%;
+    height: 5vh;
+    padding-right: 50px;
+  }
+
+  .navigation li {
+    display: flex;
+    align-self: center;
+    margin-top: -3px;
+  }
+
+  .nav-desk {
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .twitter {
+    height: 25px;
+    padding-top: 6px;
+    margin-right: -140px;
+  }
+
+  .facebook {
+    height: 25px;
+    padding-top: 6px;
+    margin-right: -90%;
+  }
+
+  .desk-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list-desk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 30px;
+    padding-right: 50px;
+  }
+
+  .container-desk {
+    display: flex;
+  }
+
+  a:hover {
+    color: orangered;
+  }
+
+  .anchor {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 130%;
+  }
+
+  .div-image-desk {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    overflow: hidden;
+  }
+
+  .image-desk {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .point {
+    color: orangered;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 26px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border: 2px solid orangered;
+  }
+
+  .introduction,
+  .about {
+    margin: 0 149px;
+  }
+
+  .intro-text {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+
+  h4 {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: -1px;
+    padding-bottom: 10px;
+  }
+
+  .outreach {
+    width: 35%;
+    height: 22vh;
+  }
+
+  .img {
+    margin-right: 7px;
+  }
+
+  .img-1 {
+    margin-left: 7px;
+  }
+
+  .image-class {
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
-    margin-top: 20px;
   }
-  
-  li {
-    width: 30%;
-    margin: 10px;
-  }
-  
-  .lagtechfest-logo {
-    width: 60%;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-  }
-  
-  .paragraph {
-    background-color: white;
-    color: #272a32;
-    font-size: 10px;
-    line-height: 18px;
-    margin-top: 80px;
-  }
-  
-  #desktop-menu {
+
+  .partner {
     display: none;
   }
-  
-  @media (min-width: 768px) {
-    #menu {
-      display: none;
-    }
-  
-    #desktop-menu {
-      display: block;
-    }
-  
-    .menu-nav {
-      display: none;
-    }
-  
-    ul {
-      list-style: none;
-    }
-  
-    li {
-      width: 10%;
-      margin-bottom: 5px;
-      margin-right: 0;
-      margin-left: 0;
-    }
-  
-    .navigation {
-      display: flex;
-      flex-wrap: wrap;
-      background-color: rgb(47, 47, 47);
-      justify-content: flex-end;
-      margin: 0%;
-      height: 5vh;
-      padding-right: 50px;
-    }
 
-    .navigation li {
-        display: flex;
-        align-self: center;
-        margin-top: -3px;
-    }
-  
-    .nav-desk {
-      color: white;
-      font-size: 15px;
-      margin-top: 5px;
-    }
-  
-    .twitter {
-      height: 25px;
-      padding-top: 6px;
-      margin-right: -140px;
-    }
-  
-    .facebook {
-      height: 25px;
-      padding-top: 6px;
-      margin-right: -90%;
-    }
-  
-    .desk-nav {
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    .list-desk {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 60px;
-      margin-top: 30px;
-      padding-right: 50px;
-    }
-  
-    .container-desk {
-      display: flex;
-    }
-  
-    a:hover {
-      color: orangered;
-    }
-  
-    .anchor {
-      text-decoration: none;
-      color: rgb(112, 112, 112);
-      font-size: 130%;
-    }
+  .lagtechfest-logo {
+    width: 10%;
+    height: 10vh;
+    margin-top: 40px;
+    margin-left: -80px;
+  }
 
-    .div-image-desk {
-        display: flex;
-        align-items: center;
-        height: 120px;
-        overflow: hidden;
-      }
-  
-    .image-desk {
-      width: 80%;
-      margin-left: 20%;
-    }
-  
-    .point {
-      color: orangered;
-      font-size: 22px;
-      font-weight: 700;
-      margin-top: 26px;
-      text-decoration: none;
-      margin-right: 10px;
-      padding: 10px 10px;
-      border: 2px solid orangered;
-    }
-  
-    .introduction,
-    .about {
-      margin: 0 149px;
-    }
-  
-    .intro-text {
-      display: none;
-    }
-  
-    h1 {
-      margin-top: 20px;
-      padding-top: 50px;
-    }
-  
-    h4 {
-      font-size: 16px;
-      padding-top: 10px;
-      margin-bottom: -1px;
-      padding-bottom: 10px;
-    }
-  
-    .outreach {
-      width: 35%;
-      height: 22vh;
-    }
-  
-    .img {
-      margin-right: 7px;
-    }
-  
-    .img-1 {
-      margin-left: 7px;
-    }
-  
-    .image-class {
-        width: 90%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .partner {
-      display: none;
-    }
-  
-    .lagtechfest-logo {
-      width: 10%;
-      height: 10vh;
-      margin-top: 40px;
-      margin-left: -80px;
-    }
-  
-    footer {
-      margin: 0;
-      background-color: #272a32;
-      display: flex;
-      justify-content: center;
-      gap: 50px;
-    }
-  
-    .paragraph {
-      color: white;
-      background-color: #272a32;
-    }
+  footer {
+    margin: 0;
+    background-color: #272a32;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .paragraph {
+    color: white;
+    background-color: #272a32;
+  }
 }
