@@ -30,9 +30,10 @@
 
 **Capstone-Project.1** is a project built Html, Css and Javascript.
 
-Main task carried out include:
+- Main task carried out include:
 
 Dynamically creating cards using Javascript DOM manipulation, organizing page layout using flex box, integrating media query at specific width and using custom backgrounds.
+- [About the project](https://www.loom.com/share/4be6eac947e4493ebde4f2bbe2e6c98d)
 
 ## 🛠 Built With <a name="built-with"></a>
 
