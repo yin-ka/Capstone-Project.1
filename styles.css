@@ -73,7 +73,6 @@ body {
 
 .container {
   display: flex;
-  height: max-content;
   background-image: url('images/grey\ background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -91,7 +90,7 @@ body {
   font-size: 20px;
 }
 
-.intro-text-h1{
+.intro-text-h1 {
   font: 900 33px 'roboto', sans-serif;
   color: #ec5242;
   margin-bottom: 1.2rem;
@@ -138,7 +137,7 @@ body {
 }
 
 .main-program {
-  color:#d3d3d3;
+  color: #d3d3d3;
 }
 
 h2 {
@@ -415,7 +414,7 @@ footer {
     border: 1px solid #fff;
   }
 
-  .intro-text-h1{
+  .intro-text-h1 {
     font: 900 53px 'roboto', sans-serif;
     color: #ec5242;
     margin-bottom: 1.2rem;
@@ -555,7 +554,7 @@ footer {
 
   .ul-logo li {
     object-fit: cover;
-  filter: grayscale(1);
+    filter: grayscale(1);
   }
 
   .logo-2 {

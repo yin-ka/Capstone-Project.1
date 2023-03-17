@@ -17,7 +17,6 @@ body {
 
 .container {
   display: flex;
-  height: max-content;
   background-image: url('images/grey\ background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -193,56 +192,58 @@ footer {
 
 .conference {
   display: flex;
-      position: relative;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 2rem 0;
-      z-index: 1;
-      width: calc(100% - 2rem);
-      min-height: 320px;
-      text-align: center;
-      gap: 1rem;
-      cursor: pointer;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  z-index: 1;
+  width: calc(100% - 2rem);
+  min-height: 320px;
+  text-align: center;
+  gap: 1rem;
+  cursor: pointer;
 }
 
 .conference img {
   position: absolute;
-        top: 0;
-        left: 0;
-        width: 90%;
-        height: 90%;
-        object-fit: cover;
-        z-index: -2;
-        padding-left: 4rem;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  z-index: -2;
+  padding-left: 4rem;
 }
+
 .bg-overlay {
   position: absolute;
   top: 0;
   left: 4rem;
-  width: 82%;
+  width: 80%;
   height: 90%;
   background-color: #d72f1c;
   opacity: 0.75;
   z-index: -1;
 }
 
-.conference h4,h6 {
+.conference h4,
+h6 {
   margin-top: 0;
   color: #fff;
 }
 
 .conference h4 {
   font-size: 2.5rem;
-        font-weight: 900;
-        margin-bottom: 0;
-        margin-bottom: 0.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .conference h6 {
   font-size: 1.15rem;
-        font-weight: 600;
-        margin-bottom: 0;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -362,6 +363,11 @@ footer {
     margin: 1rem 149px;
   }
 
+  h1 {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+
   .introduction h1 {
     margin: 0 10%;
   }
@@ -370,18 +376,12 @@ footer {
     display: none;
   }
 
-  h1 {
-    margin-top: 20px;
-    padding-top: 50px;
-  }
-
   h4 {
     font-size: 16px;
     padding-top: 10px;
     margin-bottom: -1px;
     padding-bottom: 10px;
   }
-
 
   .image-class {
     width: 90%;
@@ -393,47 +393,62 @@ footer {
 
   .conference {
     z-index: 1;
-        min-height: 320px;
-        gap: 1.25rem;
-        width: 49.9%;
-      }
-        img {
-          object-position: center;
-        }
-
-        h4 {
-          font-size: 3.5rem;
-        }
-
-        h6 {
-          font-size: 2.25rem;
-        }
+    min-height: 320px;
+    gap: 1.25rem;
+    width: 49.9%;
   }
 
-  .partner {
-    display: none;
+  img {
+    object-position: center;
   }
 
-  .lagtechfest-logo {
-    width: 10%;
-    height: 10vh;
-    margin-top: 40px;
-    margin-left: -80px;
+  h4 {
+    font-size: 3.5rem;
   }
 
-  footer {
-    margin: 0;
-    background-color: #272a32;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  h6 {
+    font-size: 2.25rem;
   }
 
-  .paragraph {
-    margin-top: 2rem;
-    color: white;
-    background-color: #272a32;
-    width: 60%;
-    height: 80px;
+  .ov-img {
+    min-width: 105%;
   }
+
+  .bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    width: 95%;
+    height: 90%;
+    background-color: #d72f1c;
+    opacity: 0.75;
+    z-index: -1;
+  }
+}
+
+.partner {
+  display: none;
+}
+
+.lagtechfest-logo {
+  width: 10%;
+  height: 10vh;
+  margin-top: 40px;
+  margin-left: -80px;
+}
+
+footer {
+  margin: 0;
+  background-color: #272a32;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.paragraph {
+  margin-top: 2rem;
+  color: white;
+  background-color: #272a32;
+  width: 60%;
+  height: 80px;
 }
