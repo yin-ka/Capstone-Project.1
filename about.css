@@ -191,6 +191,60 @@ footer {
   display: none;
 }
 
+.conference {
+  display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0;
+      z-index: 1;
+      width: calc(100% - 2rem);
+      min-height: 320px;
+      text-align: center;
+      gap: 1rem;
+      cursor: pointer;
+}
+
+.conference img {
+  position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+        z-index: -2;
+        padding-left: 4rem;
+}
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 4rem;
+  width: 82%;
+  height: 90%;
+  background-color: #d72f1c;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.conference h4,h6 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.conference h4 {
+  font-size: 2.5rem;
+        font-weight: 900;
+        margin-bottom: 0;
+        margin-bottom: 0.5rem;
+}
+
+.conference h6 {
+  font-size: 1.15rem;
+        font-weight: 600;
+        margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
   #menu {
     display: none;
@@ -328,13 +382,32 @@ footer {
     padding-bottom: 10px;
   }
 
-  
 
   .image-class {
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin-left: 3rem;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .conference {
+    z-index: 1;
+        min-height: 320px;
+        gap: 1.25rem;
+        width: 49.9%;
+      }
+        img {
+          object-position: center;
+        }
+
+        h4 {
+          font-size: 3.5rem;
+        }
+
+        h6 {
+          font-size: 2.25rem;
+        }
   }
 
   .partner {
