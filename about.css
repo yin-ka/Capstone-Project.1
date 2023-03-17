@@ -113,6 +113,11 @@ h3 {
   border-bottom: 2px solid #ec5242;
 }
 
+li {
+  width: 30%;
+  margin: 10px;
+}
+
 .ul-logo {
   background: #272a32;
 }
@@ -154,11 +159,6 @@ ul {
   justify-content: center;
   padding: 0;
   margin-top: 20px;
-}
-
-li {
-  width: 30%;
-  margin: 10px;
 }
 
 .lagtechfest-logo {
@@ -400,8 +400,6 @@ h6 {
   h6 {
     font-size: 2.25rem;
   }
-
-  
 
   .partner {
     display: none;
