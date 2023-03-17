@@ -208,20 +208,19 @@ footer {
 .conference img {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 90%;
-  height: 90%;
+  left: 1rem;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: -2;
-  padding-left: 4rem;
 }
 
 .bg-overlay {
   position: absolute;
   top: 0;
-  left: 4rem;
-  width: 80%;
-  height: 90%;
+  left: 1rem;
+  width: 100%;
+  height: 100%;
   background-color: #d72f1c;
   opacity: 0.75;
   z-index: -1;
@@ -386,9 +385,12 @@ h6 {
   .image-class {
     width: 90%;
     display: flex;
+    flex-direction: row;
     margin-left: 3rem;
-    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 3rem;
+    background-color: aquamarine;
+    gap: 3rem;
   }
 
   .conference {
@@ -402,53 +404,36 @@ h6 {
     object-position: center;
   }
 
-  h4 {
-    font-size: 3.5rem;
-  }
-
   h6 {
     font-size: 2.25rem;
   }
 
-  .ov-img {
-    min-width: 105%;
+  
+
+  .partner {
+    display: none;
   }
 
-  .bg-overlay {
-    position: absolute;
-    top: 0;
-    left: 4rem;
-    width: 95%;
-    height: 90%;
-    background-color: #d72f1c;
-    opacity: 0.75;
-    z-index: -1;
+  .lagtechfest-logo {
+    width: 10%;
+    height: 10vh;
+    margin-top: 40px;
+    margin-left: -80px;
   }
-}
 
-.partner {
-  display: none;
-}
+  footer {
+    margin: 0;
+    background-color: #272a32;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 
-.lagtechfest-logo {
-  width: 10%;
-  height: 10vh;
-  margin-top: 40px;
-  margin-left: -80px;
-}
-
-footer {
-  margin: 0;
-  background-color: #272a32;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
-
-.paragraph {
-  margin-top: 2rem;
-  color: white;
-  background-color: #272a32;
-  width: 60%;
-  height: 80px;
+  .paragraph {
+    margin-top: 2rem;
+    color: white;
+    background-color: #272a32;
+    width: 60%;
+    height: 80px;
+  }
 }
