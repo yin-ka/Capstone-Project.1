@@ -269,7 +269,6 @@ h6 {
     background-color: rgb(47, 47, 47);
     justify-content: flex-end;
     margin: 0%;
-    height: 5vh;
     padding-right: 50px;
   }
 
@@ -282,7 +281,7 @@ h6 {
   .nav-desk {
     color: white;
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 1rem;
   }
 
   .twitter {

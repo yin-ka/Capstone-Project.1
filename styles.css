@@ -91,9 +91,14 @@ body {
 }
 
 .intro-text-h1 {
-  font: 900 33px 'roboto', sans-serif;
+  width: 100%;
+  font: 700 43px 'roboto', sans-serif;
   color: #ec5242;
   margin-bottom: 1.2rem;
+  background-image: url(images/orange\ background.jpeg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .div-aph-title {
@@ -408,14 +413,14 @@ footer {
 
   .div-aph-title {
     display: flex;
-    width: 25rem;
-    height: 3.3rem;
+    width: 70%;
+    height: 10%;
     background-color: #d3d3d3;
     border: 1px solid #fff;
   }
 
   .intro-text-h1 {
-    font: 900 53px 'roboto', sans-serif;
+    font: 900 73px 'roboto', sans-serif;
     color: #ec5242;
     margin-bottom: 1.2rem;
   }
