@@ -33,7 +33,7 @@
 - Main task carried out include:
 
 Dynamically creating cards using Javascript DOM manipulation, organizing page layout using flex box, integrating media query at specific width and using custom backgrounds.
-- [About the project](https://www.loom.com/share/4be6eac947e4493ebde4f2bbe2e6c98d)
+- [About the project](https://www.loom.com/share/d5b26129cda04933a625c5ad0a2d03f7)
 
 ## 🛠 Built With <a name="built-with"></a>
 
