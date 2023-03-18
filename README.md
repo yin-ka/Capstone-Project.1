@@ -26,7 +26,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio<a name="about-project"></a>
+# 📖 Capstone-Project.1<a name="First Capstone-Project"></a>
 
 **Capstone-Project.1** is a project built Html, Css and Javascript.
 
@@ -120,7 +120,7 @@ If you like this project give a star to this repository.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
+I would like to thank the Microverse full-stack curriculum for the inspiration and guidance. I would like to also acknowlegde Cindy Shin, whose design I used in the developing this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
