@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#menu {
+  width: 40px;
+  margin: 20px 0 0 20px;
+  position: absolute;
+  display: block;
+  float: left;
+}
+
+.container {
+  display: flex;
+  background-image: url('images/grey\ background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 35rem;
+}
+
+.image-1 {
+  height: 100px;
+  width: 80%;
+  margin-top: -10px;
+}
+
+.introduction {
+  margin: 16px;
+}
+
+h1 {
+  color: orangered;
+  font-size: 35px;
+  margin-top: -10px;
+}
+
+.intro-text {
+  padding-top: 100px;
+  color: orangered;
+  font-size: 25px;
+}
+
+.paragraph-title {
+  background-color: white;
+  color: #272a32;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 32px;
+  margin: auto;
+}
+
+.address {
+  font-size: 12px;
+  color: #272a32;
+  padding: 0 60px;
+}
+
+.address-2 {
+  font-weight: 600;
+  color: #272a32;
+  text-decoration: underline;
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 15px;
+  padding: 0 90px;
+}
+
+.guide {
+  border-bottom: 1px solid orangered;
+  width: 10%;
+  margin: auto;
+}
+
+.logo {
+  border: 1px solid lightgrey;
+  height: 30%;
+  width: 90%;
+  padding: 0 80px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  padding-top: 30px;
+  border-top: 1px solid lightgray;
+}
+
+.outreach {
+  margin: 10px 30px;
+  width: 80%;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a32;
+  height: 25vh;
+}
+
+.guide- {
+  width: 1.5rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #ec5242;
+}
+
+li {
+  width: 30%;
+  margin: 10px;
+}
+
+.ul-logo {
+  background: #272a32;
+}
+
+.ul-logo li {
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+h5 {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: -1px;
+}
+
+.partner h5 {
+  margin-top: -1rem;
+}
+
+.logo-2 {
+  width: 40%;
+}
+
+.logo-3 {
+  margin-top: -3rem;
+  width: 40%;
+}
+
+.logo-1 {
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lagtechfest-logo {
+  width: 20%;
+  margin-top: 6rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.paragraph {
+  background-color: white;
+  color: #272a32;
+  font-size: 10px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+
+#desktop-menu {
+  display: none;
+}
+
+.conference {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  z-index: 1;
+  width: calc(100% - 2rem);
+  min-height: 320px;
+  text-align: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.conference img {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #d72f1c;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.conference h4,
+h6 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.conference h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.conference h6 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #menu {
+    display: none;
+  }
+
+  #desktop-menu {
+    display: block;
+  }
+
+  .menu-nav {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    width: 10%;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(47, 47, 47);
+    justify-content: flex-end;
+    margin: 0%;
+    padding-right: 50px;
+  }
+
+  .navigation li {
+    display: flex;
+    align-self: center;
+    margin-top: -3px;
+  }
+
+  .nav-desk {
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+
+  .twitter {
+    height: 25px;
+    padding-top: 6px;
+    margin-right: -140px;
+  }
+
+  .facebook {
+    height: 25px;
+    padding-top: 6px;
+    margin-right: -90%;
+  }
+
+  .desk-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list-desk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 30px;
+    padding-right: 50px;
+  }
+
+  .container-desk {
+    display: flex;
+  }
+
+  .container {
+    height: 30rem;
+  }
+
+  a:hover {
+    color: orangered;
+  }
+
+  .anchor {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 130%;
+  }
+
+  .div-image-desk {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    overflow: hidden;
+  }
+
+  .image-desk {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .point {
+    color: orangered;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 26px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border: 2px solid orangered;
+  }
+
+  .introduction,
+  .about {
+    margin: 1rem 149px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+
+  .introduction h1 {
+    margin: 0 10%;
+  }
+
+  .intro-text {
+    display: none;
+  }
+
+  h4 {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: -1px;
+    padding-bottom: 10px;
+  }
+
+  .image-class {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    justify-content: space-between;
+    padding: 0 3rem;
+    gap: 3rem;
+  }
+
+  .conference {
+    z-index: 1;
+    min-height: 320px;
+    gap: 1.25rem;
+    width: 49.9%;
+  }
+
+  img {
+    object-position: center;
+  }
+
+  h6 {
+    font-size: 2.25rem;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .lagtechfest-logo {
+    width: 10%;
+    height: 10vh;
+    margin-top: 40px;
+    margin-left: -80px;
+  }
+
+  footer {
+    margin: 0;
+    background-color: #272a32;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .paragraph {
+    margin-top: 2rem;
+    color: white;
+    background-color: #272a32;
+    width: 60%;
+    height: 80px;
+  }
+}
